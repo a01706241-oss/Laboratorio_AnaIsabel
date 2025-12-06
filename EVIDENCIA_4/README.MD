@@ -111,45 +111,4 @@ Seleccionar o escribir la ruta que se desea analizar.
 
 Explorar los indicadores de nivel de servicio, riesgo del clúster, costos asociados, kilómetros por periodo y simulaciones de buffer.
 
-DIAGRAMA ILUSTRATIVO DE APLICACIÓN 
 
-USUARIO
-  └── Navegador Web (localhost:8050)
-        │
-        ▼
-INTERFAZ DASH
-  ├── Carga de Archivos (Upload Components)
-  ├── Sidebar (Rutas / Navegación)
-  ├── Dash Core Components (Dropdowns, Graphs)
-  └── Dash Bootstrap Components (Layout visual)
-        │
-        ▼
-CALLBACK ENGINE (Dash)
-  ├── Procesamiento de archivos:
-  │     ├── Combustible
-  │     ├── Viajes
-  │     ├── Telemetría
-  │     └── Tablero PL
-  ├── Cálculo de KPIs:
-  │     ├── CPK
-  │     ├── Ociosidad Global
-  │     └── Ociosidad por Ruta
-  ├── Modelo IA:
-  │     ├── Limpieza de datos
-  │     ├── Feature Engineering
-  │     ├── StandardScaler
-  │     └── K-Means (Clasificación riesgo)
-  └── Simulaciones:
-        ├── Trade-off buffer vs NS
-        ├── KM por periodo
-        └── Costo de buffer por ruta
-        │
-        ▼
-PLOTLY GRAPH ENGINE
-  ├── Barras (CPK, KM)
-  ├── Líneas (Tradeoff)
-  ├── Burbujas y elementos dinámicos
-  └── Estilos personalizados (colores corporativos)
-        │
-        ▼
-PÁGINA RENDERIZADA AL USUARIO

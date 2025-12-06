@@ -43,3 +43,13 @@ import io
 import flask
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+
+El código funciona. Para utilizarlo se debe abrir en la misma carpeta que los archivos que se utilizan; 
+'Enero-febrero 2025 Combustible.xlxs','Reporte Listado Viaje Ene-Oct_2025.xlxs','Tablero_PL_2024-09_2025-09_v2.xlxs','Telemetría.xlxs'
+Al correr, aparece un error. Esto es porque las librerías utilizadas se forzan para realizar modelado que en teoría no estan hechas, pero funciona. 
+Se debe abrir en buscador el siguiente link :
+http://localhost:8050
+
+una vez cargue el dashboard. Se debe ingresar con el usuario y contraseña. Para simplicidad del ejemplo 'admin:1234'. 
+dentro, se deben cargar los archivos de excel mencionados donde la aplicación los requiere. Una vez cargados (puede tomar tiempo) seleccionar 'ir a dashboard'. 
+Aquí, se debe seleccionar o escribir la ruta que se quiere visualizar.

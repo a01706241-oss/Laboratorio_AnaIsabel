@@ -1,0 +1,11 @@
+dash
+dash-auth
+dash-bootstrap-components
+plotly
+pandas
+numpy
+scikit-learn
+flask
+openpyxl
+
+

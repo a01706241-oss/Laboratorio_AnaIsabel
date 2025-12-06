@@ -87,13 +87,12 @@ Al iniciar pueden aparecer advertencias debido a que algunas librerías se utili
 
 Autenticación
 
-La aplicación requiere autenticación básica.
+La aplicación requiere autenticación básica, es decir no es una medida completamente segura.
 Para este proyecto se utiliza:
 
 Usuario: admin
 
 Contraseña: 1234
-
 
 Uso del Dashboard
 
